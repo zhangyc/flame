@@ -54,9 +54,6 @@ class ShapeComponent extends PositionComponent with HasHitboxes {
     super.render(canvas);
     shape.render(canvas, paint);
   }
-
-  //@override
-  //bool containsPoint(Vector2 point) => shape.containsPoint(point);
 }
 
 class CircleComponent extends ShapeComponent {
